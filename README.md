@@ -88,3 +88,20 @@ The `samples/` directory contains sample retail shelf imagery for local testing 
 | `shelf_sample.jpg` | Supermarket shelf image | [Public Domain Pictures](https://www.publicdomainpictures.net/en/view-image.php?image=304765&picture=full-supermarket-shelves) |
 
 The image is provided for sample testing. It is not a substitute for a representative evaluation dataset.
+
+
+## FPS Benchmark
+
+A basic OpenCV preprocessing benchmark was performed using the sample shelf image.
+
+| Metric | Result |
+|---|---:|
+| Frames processed | 300 |
+| Total processing time | 0.81 seconds |
+| Processing speed | 372.42 FPS |
+
+**Note:** This benchmark measures image resizing and colour conversion only. It does not represent YOLO inference or object-detection performance.
+
+### Benchmark Screenshot
+
+![OpenCV FPS Benchmark](screenshots/fps_benchmark.png)
