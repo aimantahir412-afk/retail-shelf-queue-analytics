@@ -78,3 +78,13 @@ Refer to [PAYLOAD_SCHEMA.md](PAYLOAD_SCHEMA.md) for the JSON payload structures.
 ## Development Status
 
 The initial FastAPI service, health-check endpoint, metrics ingestion endpoint, and shared payload schema have been implemented. WebSocket broadcasting, dashboard development, and database integration are planned for subsequent stages of the sprint.
+
+## Sample Media
+
+The `samples/` directory contains sample retail shelf imagery for local testing and demonstration.
+
+| File | Description | Source |
+|---|---|---|
+| `shelf_sample.jpg` | Supermarket shelf image | [Public Domain Pictures](https://www.publicdomainpictures.net/en/view-image.php?image=304765&picture=full-supermarket-shelves) |
+
+The image is provided for sample testing. It is not a substitute for a representative evaluation dataset.
